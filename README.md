@@ -1,0 +1,1 @@
+# IA-Resumo-de-shorts
