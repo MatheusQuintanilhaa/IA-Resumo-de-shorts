@@ -1,0 +1,50 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#app > h1 {
+  color: #996dff;
+  margin-top: -5px;
+}
+
+#app > h2 {
+  /* align-self: flex-start; */
+  text-align: center;
+  margin-top: 64px;
+}
+
+#app > p {
+  /* align-self: flex-start; */
+  text-align: justify;
+  /* width: 512px; */
+  margin-top: -5px;
+}
+
+#app .placeholder {
+  color: #7c7c8a;
+  user-select: none; /* Prevents the text from being selected */
+}
+
+@media screen and (max-width: 768px) {
+  #app > h1 {
+    font-size: 24px;
+    flex-direction: column;
+  }
+
+  #app > h2 {
+    font-size: 18px;
+    margin-top: 32px;
+  }
+
+  #app > p {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+  }
+}
